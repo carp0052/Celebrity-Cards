@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+header{
+    min-height: 150px;
+}
+
+header h1{
+    font-size: 5rem;
+    color: #660198;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.thumbnail img{
+    width: 250px;
+    height: 250px;
+}
+
+.img-thumbnail{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.centre{
+    text-align: center;
+}
+
+.align{
+    margin-right: -215px;
+}
+
+.panel-heading{
+    margin-bottom: 0.5rem;
+}
+
+.panel{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.detailsBio{
+    margin-top: 1rem;
+}
+
+.bio{
+    max-width: 300px;
+}
+
+
+/* -- fix for angular ui-bootstrap to handle empty href values properly --  */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }

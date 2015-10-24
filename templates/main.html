@@ -1,0 +1,15 @@
+<main>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4" ng-repeat="celebrity in allData.celebrities">
+    <div class="thumbnail">
+        <img src="img/{{celebrity.image}}" alt="{{celebrity.name}}" class="img-circle" />
+      <div class="caption centre">
+        <h3>{{celebrity.name}}</h3>
+        <p><a class="btn btn-success" href="#/details/{{celebrity.id}}" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+</main>

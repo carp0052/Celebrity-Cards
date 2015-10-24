@@ -1,0 +1,26 @@
+<main>
+    
+<div class="panel panel-warning">
+    <div class="panel-heading">
+        <h2 class="panel-title centre">{{celebrity.name}}</h2>
+    </div>
+    <div class="panel-body">        
+        <div class="row align">
+            <div class="col-sm-12 col-md-4 pic">
+                <img src="img/{{celebrity.image}}" class="img-thumbnail" />
+            </div>
+            <div class="col-sm-12 col-md-8 detailsBio">
+                <p><strong>Age:</strong> {{celebrity.age}}</p>
+                <p><strong>Net Worth:</strong> {{celebrity.net_worth |currency}}</p>
+                <p class="bio"><strong>Bio</strong><br>{{celebrity.bio}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <a href="#/" class="btn btn-success">Back to List</a>
+    </div>
+</div>
+    
+    
+
+</main>
